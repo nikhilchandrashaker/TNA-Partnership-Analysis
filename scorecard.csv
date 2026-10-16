@@ -1,0 +1,14 @@
+dimension,metric,AEW,NXT,reliability
+Exposure,Crossover match/segment leads in dataset (after dedupe),25,46,"LOW - counts reflect collection effort and community tallies, not a verified census"
+Exposure,Rows with an exact date,17,23,LOW
+Exposure,Partner-show audience size (context only),not collected,NXT on The CW ~680-784k (2025 quarterly avg),MEDIUM - NXT only; not TNA's audience
+Booking value,TNA-title reigns in crossover context,2,7,"MEDIUM-HIGH - cross-checked, but NXT-era list is recent and may still be incomplete across all titles"
+Booking value,TNA men's world-title reigns (Impact/TNA World),2,1,HIGH
+Booking value,TNA Knockouts World title reigns,0,6,MEDIUM-HIGH
+Booking value,TNA-title reigns won on partner programming,1,3,MEDIUM-HIGH
+Booking value,Distinct TNA titles involved,1,3,MEDIUM-HIGH
+Booking value,Total days TNA titles held (crossover-era reigns in table),181,553,MEDIUM-HIGH
+Business impact,Measured TNA TV audience change vs baseline,+23% (95% boot CI 13 to 35%),not estimable,"AEW: MEDIUM-LOW (before/after, no control). NXT: no usable data"
+Business impact,Attendance / gate / PPV / streaming,not collected,not collected,NONE - no credible sourced figures gathered for either era
+Talent development,TNA talent who moved to WWE/AEW after crossover exposure (verified rows),0,3,MEDIUM - trade-press reports; direction of value (pipeline benefit vs talent loss) is ambiguous
+Talent development,Documented retention re-signings during crossover,2,0,LOW - only incidental cases found

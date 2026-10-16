@@ -1,0 +1,13 @@
+partnership,indicator,count
+TNA/Impact-AEW,event rows after dedupe,25
+TNA/Impact-AEW,match rows with a date,13
+TNA/Impact-AEW,match rows primary-source verified,0
+TNA/Impact-AEW,episode-level TNA TV viewership points,14
+TNA/Impact-AEW,title reigns documented,2
+TNA/Impact-AEW,talent movement rows,2
+TNA-WWE/NXT,event rows after dedupe,46
+TNA-WWE/NXT,match rows with a date,23
+TNA-WWE/NXT,match rows primary-source verified,4
+TNA-WWE/NXT,episode-level TNA TV viewership points,0
+TNA-WWE/NXT,title reigns documented,9
+TNA-WWE/NXT,talent movement rows,3

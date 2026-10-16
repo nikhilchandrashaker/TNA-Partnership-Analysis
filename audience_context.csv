@@ -1,0 +1,8 @@
+period,measure,value,unit,source,source_url,caveat
+2020-10-27..12-01,"Impact on AXS mean, pre-Omega baseline",141000,viewers,Cultaholic summary of Wrestlenomics data,https://cultaholic.com/posts/was-kenny-omega-s-first-impact-wrestling-run-a-success,Mean only; episode values not obtained
+2020-12-08,"TNA press release multiplatform total ('750,000+')",750000,mixed TV viewers + online views,TNA press release (self-reported),https://tnawrestling.com/?p=17510,Mixes Nielsen TV with Facebook/YouTube views; NOT comparable to Nielsen averages
+2024-01-18,"Impact on AXS, TNA-rebrand return episode",112000,viewers,SpoilerTV via Cultaholic,https://cultaholic.com/en/posts/tna-impact-return-episode-averages-112-000-viewers,Pre-WWE-partnership reference
+2024-2025,Impact on AXS typical range,80000-100000,viewers,PWTorch (sporadic data),https://www.pwtorch.com/site/?p=214066,Not a full series; Wrestlenomics calls AXS audience 'unknown to the public'
+2026-01-15..,"Impact on AMC, first 7 weeks mean",245571,viewers,"PWTorch (Nielsen, new methodology)",https://www.pwtorch.com/site/?p=214066,Network change + new Nielsen methodology confounds any NXT-era before/after comparison
+2025-Q1,"WWE NXT on The CW, quarter avg (P2+)",784000,viewers,Wrestlenomics,https://wrestlenomics.com/tv-ratings/2025/wwe-nxt-feb-11-on-cw-801000-viewers-0-18-p18-49-rating-tv-ratings-analysis/,"Size of partner audience (exposure ceiling), not TNA's audience"
+2025-Q3,"WWE NXT on The CW, quarter avg (P2+)",680000,viewers,Wrestlenomics,https://wrestlenomics.com/tv-ratings/2025/wwe-nxt-sep-23-on-cw-617000-viewers-0-12-p18-49-rating-tv-ratings-analysis/,"Size of partner audience (exposure ceiling), not TNA's audience"

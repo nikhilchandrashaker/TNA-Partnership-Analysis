@@ -1,0 +1,374 @@
+{
+  "descriptives": [
+    {
+      "partnership": "TNA/Impact-AEW",
+      "code": "AEW",
+      "event_rows": 25,
+      "matches": 21,
+      "segments": 4,
+      "dated_rows": 17,
+      "title_involved_rows": 5,
+      "unique_names_in_leads": 30,
+      "primary_verified_rows": 0,
+      "host_breakdown": {
+        "Impact Wrestling": 19,
+        "AEW": 6
+      },
+      "first_date": "2020-12-08",
+      "last_date": "2021-08-18"
+    },
+    {
+      "partnership": "TNA-WWE/NXT",
+      "code": "NXT",
+      "event_rows": 46,
+      "matches": 46,
+      "segments": 0,
+      "dated_rows": 23,
+      "title_involved_rows": 0,
+      "unique_names_in_leads": 58,
+      "primary_verified_rows": 4,
+      "host_breakdown": {
+        "WWE/NXT": 43,
+        "TNA": 3
+      },
+      "first_date": "2024-06-04",
+      "last_date": "2025-07-01"
+    }
+  ],
+  "titles": [
+    {
+      "code": "AEW",
+      "tna_title_reigns": 2,
+      "reigns_in_crossover_context": 2,
+      "world_title_reigns": 2,
+      "knockouts_world_reigns": 0,
+      "won_on_partner_programming": 1,
+      "lost_on_partner_programming": 1,
+      "total_days_held": 181,
+      "total_days_world_title": 181,
+      "distinct_titles": 1,
+      "reverse_direction_reigns": 0
+    },
+    {
+      "code": "NXT",
+      "tna_title_reigns": 8,
+      "reigns_in_crossover_context": 7,
+      "world_title_reigns": 1,
+      "knockouts_world_reigns": 6,
+      "won_on_partner_programming": 3,
+      "lost_on_partner_programming": 2,
+      "total_days_held": 553,
+      "total_days_world_title": 140,
+      "distinct_titles": 3,
+      "reverse_direction_reigns": 1
+    }
+  ],
+  "talent": {
+    "tna_to_wwe": 3,
+    "tna_to_aew": 0,
+    "retention_rows_aew_era": 2,
+    "by_direction": {
+      "AEW->TNA": 1,
+      "TNA->WWE": 3,
+      "retention": 2
+    }
+  },
+  "tv_event_study": {
+    "baseline_mean": 141000,
+    "post_window": "2020-12-08..2021-02-16, holiday repeats excluded",
+    "n_post": 9,
+    "post_mean": 173666.66666666666,
+    "post_sd": 24763.88499407958,
+    "lift_abs": 32666.666666666657,
+    "lift_pct": 23.16784869976358,
+    "boot95_post_mean": [
+      159333.33333333334,
+      189888.88888888888
+    ],
+    "boot95_lift_pct": [
+      13.002364066193861,
+      34.67297084318359
+    ],
+    "caveat": "Baseline is a published mean with no variance; CI reflects post-period spread only. No control series, so this is a before/after comparison, not a causal estimate."
+  },
+  "tv_sensitivity": [
+    {
+      "scenario": "Core window, 141k baseline",
+      "n": 9,
+      "mean": 173666.66666666666,
+      "lift_pct": 23.16784869976358
+    },
+    {
+      "scenario": "Core window, Dec 1 only (166k) baseline",
+      "n": 9,
+      "mean": 173666.66666666666,
+      "lift_pct": 4.61847389558232
+    },
+    {
+      "scenario": "First 4 weeks only (Dec 8-Jan 5)",
+      "n": 3,
+      "mean": 182000.0,
+      "lift_pct": 29.078014184397173
+    },
+    {
+      "scenario": "Weeks 5-10 only (Jan 12-Feb 16)",
+      "n": 6,
+      "mean": 169500.0,
+      "lift_pct": 20.21276595744681
+    },
+    {
+      "scenario": "Include holiday repeats",
+      "n": 11,
+      "mean": 163545.45454545456,
+      "lift_pct": 15.989684074790468
+    },
+    {
+      "scenario": "Incl. April 2021 (Thursday move, Omega)",
+      "n": 11,
+      "mean": 169363.63636363635,
+      "lift_pct": 20.116054158607334
+    }
+  ],
+  "tv_partner_vs_not": {
+    "n_partner": 6,
+    "n_other": 6,
+    "mean_partner": 167666.66666666666,
+    "mean_other": 170500.0,
+    "diff": -2833.333333333343,
+    "perm_p_two_sided": 0.8605,
+    "note": "Partner-on-show episodes did not draw significantly more than other episodes in the same window."
+  },
+  "tv_persistence": {
+    "peak": 221000,
+    "peak_date": "2020-12-08",
+    "weeks_to_return_below_baseline_excl_repeats": "Dec 15 (177k) already ~25% below peak; Jan mean ~161,333 (still above 141k baseline)"
+  },
+  "nxt_era_tv": {
+    "estimable": false,
+    "reasons": [
+      "No credible episode-level TNA Impact (AXS TV) viewership series for 2024-2025 is publicly available (Wrestlenomics: 'unknown to the public').",
+      "Network moved from AXS TV to AMC on 2026-01-15 with a new Nielsen methodology, confounding any before/after comparison.",
+      "No control series (comparable wrestling show not on partner programming) has been assembled."
+    ],
+    "reference_points": [
+      {
+        "period": "2020-10-27..12-01",
+        "measure": "Impact on AXS mean, pre-Omega baseline",
+        "value": "141000",
+        "unit": "viewers",
+        "source": "Cultaholic summary of Wrestlenomics data",
+        "source_url": "https://cultaholic.com/posts/was-kenny-omega-s-first-impact-wrestling-run-a-success",
+        "caveat": "Mean only; episode values not obtained"
+      },
+      {
+        "period": "2020-12-08",
+        "measure": "TNA press release multiplatform total ('750,000+')",
+        "value": "750000",
+        "unit": "mixed TV viewers + online views",
+        "source": "TNA press release (self-reported)",
+        "source_url": "https://tnawrestling.com/?p=17510",
+        "caveat": "Mixes Nielsen TV with Facebook/YouTube views; NOT comparable to Nielsen averages"
+      },
+      {
+        "period": "2024-01-18",
+        "measure": "Impact on AXS, TNA-rebrand return episode",
+        "value": "112000",
+        "unit": "viewers",
+        "source": "SpoilerTV via Cultaholic",
+        "source_url": "https://cultaholic.com/en/posts/tna-impact-return-episode-averages-112-000-viewers",
+        "caveat": "Pre-WWE-partnership reference"
+      },
+      {
+        "period": "2024-2025",
+        "measure": "Impact on AXS typical range",
+        "value": "80000-100000",
+        "unit": "viewers",
+        "source": "PWTorch (sporadic data)",
+        "source_url": "https://www.pwtorch.com/site/?p=214066",
+        "caveat": "Not a full series; Wrestlenomics calls AXS audience 'unknown to the public'"
+      },
+      {
+        "period": "2026-01-15..",
+        "measure": "Impact on AMC, first 7 weeks mean",
+        "value": "245571",
+        "unit": "viewers",
+        "source": "PWTorch (Nielsen, new methodology)",
+        "source_url": "https://www.pwtorch.com/site/?p=214066",
+        "caveat": "Network change + new Nielsen methodology confounds any NXT-era before/after comparison"
+      },
+      {
+        "period": "2025-Q1",
+        "measure": "WWE NXT on The CW, quarter avg (P2+)",
+        "value": "784000",
+        "unit": "viewers",
+        "source": "Wrestlenomics",
+        "source_url": "https://wrestlenomics.com/tv-ratings/2025/wwe-nxt-feb-11-on-cw-801000-viewers-0-18-p18-49-rating-tv-ratings-analysis/",
+        "caveat": "Size of partner audience (exposure ceiling), not TNA's audience"
+      },
+      {
+        "period": "2025-Q3",
+        "measure": "WWE NXT on The CW, quarter avg (P2+)",
+        "value": "680000",
+        "unit": "viewers",
+        "source": "Wrestlenomics",
+        "source_url": "https://wrestlenomics.com/tv-ratings/2025/wwe-nxt-sep-23-on-cw-617000-viewers-0-12-p18-49-rating-tv-ratings-analysis/",
+        "caveat": "Size of partner audience (exposure ceiling), not TNA's audience"
+      }
+    ]
+  },
+  "scorecard": [
+    {
+      "dimension": "Exposure",
+      "metric": "Crossover match/segment leads in dataset (after dedupe)",
+      "AEW": 25,
+      "NXT": 46,
+      "reliability": "LOW - counts reflect collection effort and community tallies, not a verified census"
+    },
+    {
+      "dimension": "Exposure",
+      "metric": "Rows with an exact date",
+      "AEW": 17,
+      "NXT": 23,
+      "reliability": "LOW"
+    },
+    {
+      "dimension": "Exposure",
+      "metric": "Partner-show audience size (context only)",
+      "AEW": "not collected",
+      "NXT": "NXT on The CW ~680-784k (2025 quarterly avg)",
+      "reliability": "MEDIUM - NXT only; not TNA's audience"
+    },
+    {
+      "dimension": "Booking value",
+      "metric": "TNA-title reigns in crossover context",
+      "AEW": 2,
+      "NXT": 7,
+      "reliability": "MEDIUM-HIGH - cross-checked, but NXT-era list is recent and may still be incomplete across all titles"
+    },
+    {
+      "dimension": "Booking value",
+      "metric": "TNA men's world-title reigns (Impact/TNA World)",
+      "AEW": 2,
+      "NXT": 1,
+      "reliability": "HIGH"
+    },
+    {
+      "dimension": "Booking value",
+      "metric": "TNA Knockouts World title reigns",
+      "AEW": 0,
+      "NXT": 6,
+      "reliability": "MEDIUM-HIGH"
+    },
+    {
+      "dimension": "Booking value",
+      "metric": "TNA-title reigns won on partner programming",
+      "AEW": 1,
+      "NXT": 3,
+      "reliability": "MEDIUM-HIGH"
+    },
+    {
+      "dimension": "Booking value",
+      "metric": "Distinct TNA titles involved",
+      "AEW": 1,
+      "NXT": 3,
+      "reliability": "MEDIUM-HIGH"
+    },
+    {
+      "dimension": "Booking value",
+      "metric": "Total days TNA titles held (crossover-era reigns in table)",
+      "AEW": 181,
+      "NXT": 553,
+      "reliability": "MEDIUM-HIGH"
+    },
+    {
+      "dimension": "Business impact",
+      "metric": "Measured TNA TV audience change vs baseline",
+      "AEW": "+23% (95% boot CI 13 to 35%)",
+      "NXT": "not estimable",
+      "reliability": "AEW: MEDIUM-LOW (before/after, no control). NXT: no usable data"
+    },
+    {
+      "dimension": "Business impact",
+      "metric": "Attendance / gate / PPV / streaming",
+      "AEW": "not collected",
+      "NXT": "not collected",
+      "reliability": "NONE - no credible sourced figures gathered for either era"
+    },
+    {
+      "dimension": "Talent development",
+      "metric": "TNA talent who moved to WWE/AEW after crossover exposure (verified rows)",
+      "AEW": 0,
+      "NXT": 3,
+      "reliability": "MEDIUM - trade-press reports; direction of value (pipeline benefit vs talent loss) is ambiguous"
+    },
+    {
+      "dimension": "Talent development",
+      "metric": "Documented retention re-signings during crossover",
+      "AEW": 2,
+      "NXT": 0,
+      "reliability": "LOW - only incidental cases found"
+    }
+  ],
+  "completeness": [
+    {
+      "partnership": "TNA/Impact-AEW",
+      "indicator": "event rows after dedupe",
+      "count": 25
+    },
+    {
+      "partnership": "TNA/Impact-AEW",
+      "indicator": "match rows with a date",
+      "count": 13
+    },
+    {
+      "partnership": "TNA/Impact-AEW",
+      "indicator": "match rows primary-source verified",
+      "count": 0
+    },
+    {
+      "partnership": "TNA/Impact-AEW",
+      "indicator": "episode-level TNA TV viewership points",
+      "count": 14
+    },
+    {
+      "partnership": "TNA/Impact-AEW",
+      "indicator": "title reigns documented",
+      "count": 2
+    },
+    {
+      "partnership": "TNA/Impact-AEW",
+      "indicator": "talent movement rows",
+      "count": 2
+    },
+    {
+      "partnership": "TNA-WWE/NXT",
+      "indicator": "event rows after dedupe",
+      "count": 46
+    },
+    {
+      "partnership": "TNA-WWE/NXT",
+      "indicator": "match rows with a date",
+      "count": 23
+    },
+    {
+      "partnership": "TNA-WWE/NXT",
+      "indicator": "match rows primary-source verified",
+      "count": 4
+    },
+    {
+      "partnership": "TNA-WWE/NXT",
+      "indicator": "episode-level TNA TV viewership points",
+      "count": 0
+    },
+    {
+      "partnership": "TNA-WWE/NXT",
+      "indicator": "title reigns documented",
+      "count": 9
+    },
+    {
+      "partnership": "TNA-WWE/NXT",
+      "indicator": "talent movement rows",
+      "count": 3
+    }
+  ]
+}
